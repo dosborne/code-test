@@ -35,3 +35,7 @@ Steps to run:
 * 2.  Run npm install *
 * 3.  Run npm run compile && npm run browserify *
 * 4.  Open index.html in a browser or copy entire project to a webserver and access index.html. *
+
+I setup static hosting on AWS for this also here:
+
+http://code-test-darron.s3-website-us-west-2.amazonaws.com
