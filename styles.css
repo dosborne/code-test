@@ -1,0 +1,39 @@
+.slow-blink{
+    /*color:red;*/
+    background-color:red;
+    z-index: 1000;
+}
+.slow-blink {
+    opacity: 1;
+    animation: fade 10s linear;
+}
+
+@keyframes fade {
+    0%,20%,40%,60%,80%,100% { opacity: 1 }
+    10%,30%,50%,70%,90% {opacity:0}
+}
+
+.report-divider{
+    border-bottom:1px solid #16222c;
+}
+
+.report-vertical-divider{
+    border-left:1px solid #16222c;
+}
+
+.small-padding{
+    padding:10px
+}
+
+.small-input{
+    width:200px
+}
+
+.label-format{
+    vertical-align:top;
+    padding:10px
+}
+
+.calendar-height{
+    height: 800px;
+}
