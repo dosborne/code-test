@@ -1,7 +1,7 @@
 # code-test
 code test
 
-Duty Hours Application
+#Duty Hours Application#
 
 This application is a SPA built using reactjs.  It is divided up into a few different layers.  The entry point for the application
 is entry.js and is very simple.  It basically loads up the router.  The router handles the all of the component loading based on URL hashes.
@@ -21,17 +21,17 @@ as specific users.
 The front end code is written using JSX and ES6 so it has to be compiled.  I have setup scripts that do all of this and are available in
 the package.json and can be ran with npm.
 
-npm run compile - this compiles the JSX and ES6 code
-npm run browserify - this takes the compiled code and makes it browser ready
+* npm run compile - this compiles the JSX and ES6 code *
+* npm run browserify - this takes the compiled code and makes it browser ready *
 
 To run both use:
 
-npm run compile && npm run browserify
+* npm run compile && npm run browserify *
 
 The compiled and bundled code is written to a compiled directory.  This is where the index.html file looks for the bundle.js.
 
 Steps to run:
-1.  Clone repo
-2.  Run npm install
-3.  Run npm run compile && npm run browserify
-4.  Open index.html in a browser or copy entire project to a webserver and access index.html.
+* 1.  Clone repo *
+* 2.  Run npm install *
+* 3.  Run npm run compile && npm run browserify *
+* 4.  Open index.html in a browser or copy entire project to a webserver and access index.html. *
